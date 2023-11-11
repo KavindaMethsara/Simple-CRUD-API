@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
     res.send(users);
 });
 
+
 //Route fro add users
 router.post('/', (req, res) => {
     const user = req.body;
